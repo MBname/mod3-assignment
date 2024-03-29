@@ -1,0 +1,76 @@
+
+
+body {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #27612a;
+    font-family: 'Roboto', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+    background-color: #dfdede;
+    border-radius: 0;
+    border: 0;
+    border: solid #476442 2px;
+    margin-bottom: 0;
+}
+.navbar-brand {
+    padding-top: 30px;
+}
+.navbar-brand h1 { /* name */
+    font-family: 'Roboto', sans-serif;
+    color: #557c3e;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .65;
+}
+.text-center h2{
+    font-size: 1.6em;
+    color: #f6f7f5;
+}
+#nav-list {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    color: #1a2b1a;
+    text-align: center;
+    font-weight: 300;
+    background: #fefefe;
+}
+#nav-list a {
+    font-family: 'Roboto'sans-serif;
+    font-size: .9em;
+    font-weight: 200;
+    text-align: center;
+    color: #1f2722;
+    background-color: #a5a8a1f5;
+}
+#nav-list a:hover {
+    background-color: #dfe6e0;
+    border: #083b18d5 solid 1px;   
+}
+.navbar-default .navbar-collapse {
+	margin-top:0px;
+	border: 0px;
+	list-style-type: none;
+}  
+.navbar-toggle {
+    border: 1px solid #12613c;
+}
+.navbar-toggle {
+    clear: both;
+    margin-top: -25px;
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+    .text-center h2{
+        font-size: 1.3em;
+    }  
+    #chicken, #beef, #sushi {
+        font-size: 1.2em;
+    }
+}
